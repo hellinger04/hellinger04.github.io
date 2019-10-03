@@ -1,0 +1,56 @@
+html * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html, body { background-color: #fff;   font-family: "Merriweather",serif; font-weight: 300; color: #fff; font-size: 20px}
+input::-moz-focus-inner { border: 0; }
+strong { font-weight: bold; }
+
+
+.section {width: 100%;  padding-bottom: 100px;padding-top: 50px;}
+.main-image {margin: 0 auto; width: 400px;}
+.main-image-l {margin: 0 auto; width: 600px;}
+.section h1 {font-size: 16px;font-weight: 500;text-align: left;text-transform: uppercase;opacity: .9}
+.section h2 { font-size: 14px;margin-bottom: 8px;margin-top: 12px;line-height: 24px; opacity: .9;padding: 0;
+    text-align: left;}
+/*.info {text-align: center; margin-top: 100px;}*/
+.info {    margin-bottom: 100px;margin-left: 80px;margin-right: auto;text-align: left;    max-width: 500px;}
+.section a {text-align: center; opacity: .3; font-size:14px; margin-right: 10px;}
+.section a:hover {opacity: .8}
+.white {color: #fff;}
+.white2 {color: #000;}
+.green {background-color: #06a150}
+.blue {background-color: #067683}
+.black { background-color: #1f1f1f;}
+.gray { background-color: #dadada;}
+.red {background-color:#db4132}
+.darkgreen {background-color:#006373}
+.darkgreen2 {background-color:#005561}
+.yellow {background-color: #e8a324}
+.orange {background-color: #e6a223}
+
+
+.divider {    opacity: 0.2 !important;color: #fff;position: relative;top: 3px;}
+.divider2 {    opacity: 0.2 !important;color: #000;position: relative;top: 3px;}
+
+
+.header-animation {color:#000; text-align: center;font-weight: 300; background-color: #fff }
+.header-animation h1 {font-size: 30px; color: #fff}
+.header-animation h2 {padding:0;}
+.header-animation h3 {padding-top: 25px; font-size: 18px}
+.header-animation { padding: 75px 0;  }
+.header-animation a {color: #067683}
+
+@media (max-width: 700px) {
+
+    .header-animation {padding-left: 20px; padding-right: 20px; }
+    .header-animation h1 {font-size: 23px; line-height: 30px}
+    .header-animation h2 {    font-size: 18px;line-height: 23px;margin-top: 13px;}
+    .header-animation h3 {padding-top: 15px; padding-bottom: 20px; font-size: 15px}
+    .info {   margin-left: 20px;margin-right: auto;max-width: 400px;}
+    .main-image {margin: 0 auto; width: 100%;}
+    .main-image-l {margin: 0 auto; width: 100%;}
+
+
+}
