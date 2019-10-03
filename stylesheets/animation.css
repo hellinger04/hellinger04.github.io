@@ -22,9 +22,13 @@ strong { font-weight: bold; }
 .white2 {color: #000;}
 .green {background-color: #b6a77b}
 .lightblue {background-color: #83d2eb}
+.darkblue {background-color: #3f55a5}
+.darkestblue {background-color: #223869}
 .blue {background-color: #74a1d5}
-.black { background-color: #1f1f1f;}
-.gray { background-color: #dadada;}
+.black { background-color: #1f1f1f}
+.brown { background-color: #26211d}
+.gray { background-color: #868686}
+.lightgray { background-color: #bcbec0}
 .red {background-color:#c74937}
 .darkgreen {background-color:#006373}
 .darkgreen2 {background-color:#005561}
