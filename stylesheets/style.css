@@ -115,8 +115,8 @@ text-align: center;display: block; margin: 0 auto}*/
 .logo { display:block;margin:auto;}
 .main-content {max-width:1440px; margin:0 auto;}
 
-.yelp {background-color: #FFF}
-.yelp h2 {max-width: 600px; color: #000 }
+.yelp {padding-bottom: 30px; color: #FFF;}
+.yelp h2 {max-width: 600px; color: #000;}
 .yelp h3 {max-width: 1200px; margin-bottom: 50px; color: #000}
 .main-section2 h3 {max-width: 910px !important}
 .yelp-project {padding-top: 60px;padding-bottom: 140px; }
@@ -138,7 +138,7 @@ text-align: center;display: block; margin: 0 auto}*/
 .packlink:hover {opacity: 1}
 
 .designs {background-color:#74a1d5}
-.designs h2 {max-width: 750px; color: #fff }
+.designs h2 {max-width: 750px; padding-top: 0; padding-bottom: 0; color: #fff }
 .designs h3 {max-width: 920px; margin-bottom: 50px; color: #fff}
 .designs-project {padding-top: 60px;padding-bottom: 140px; margin-left: 3%; margin-right: 3%;}
 .designs-project img {    float: left;    width: 31.3%;}
