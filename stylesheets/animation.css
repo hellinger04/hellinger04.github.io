@@ -15,8 +15,8 @@ strong { font-weight: bold; }
 .section h2 { font-size: 14px;margin-bottom: 8px;margin-top: 12px;line-height: 24px; opacity: .9;padding: 0;
     text-align: left;}
 /*.info {text-align: center; margin-top: 100px;}*/
-.info {    margin-bottom: 100px;margin-left: 80px;margin-right: auto;text-align: left;    max-width: 500px;}
-.section a {text-align: center; opacity: .3; font-size:14px; margin-right: 10px;}
+.info {margin-bottom: 40px;margin-left: 60px;margin-right: auto;text-align: left;}
+.section a {text-align: center; opacity: .3; font-size:14px;}
 .section a:hover {opacity: .8}
 .white {color: #fff;}
 .white2 {color: #000;}
@@ -53,7 +53,7 @@ strong { font-weight: bold; }
     .header-animation h1 {font-size: 23px; line-height: 30px}
     .header-animation h2 {    font-size: 18px;line-height: 23px;margin-top: 13px;}
     .header-animation h3 {padding-top: 15px; padding-bottom: 20px; font-size: 15px}
-    .info {   margin-left: 20px;margin-right: auto;max-width: 400px;}
+    .info {   margin-left: 60px;margin-right: 60px;}
     .main-image {margin: 0 auto; width: 100%;}
     .main-image-l {margin: 0 auto; width: 100%;}
 

@@ -107,7 +107,13 @@ ul li:hover ul {
 .logo {margin-bottom: 40px;}
 /*.cta {-webkit-border-radius: 300px;-moz-border-radius: 300px;border-radius: 300px; border: 1px solid #fff; margin: 0 auto; padding: 15px 30px;
 text-align: center;display: block; margin: 0 auto}*/
+.info-writing {margin-bottom: 0px;margin-left: 60px;margin-right: 60px;text-align: left;}
 .cta {text-align: center; display: block;opacity: 0.7;}
+.cta-writing {text-align: center; display: block;opacity: 0.7; color: #FFFFFF}
+.info-writing a {color: #fff;  max-width: 200px; margin: 40px auto 0px; font-weight: 300; text-decoration: none; text-align: center; text-transform: uppercase;
+    font-size: 14px;font-family: 'Roboto', sans-serif;letter-spacing: 2px;-webkit-border-radius: 300px;-moz-border-radius: 300px;border-radius: 300px; padding: 18px 6px 18px 6px;
+    border: 1px solid #E6E6E6;   -moz-box-shadow: 0px; -webkit-box-shadow: 0px;box-shadow:0px; opacity: 1 }
+.info-writing a:hover {background-color: #E6E6E6; color: #000 }
 .main-section a {color: #fff;  max-width: 200px;margin: 0 auto; font-weight: 300;   text-decoration: none; text-align: center; text-transform: uppercase;
     font-size: 14px;font-family: 'Roboto', sans-serif;letter-spacing: 2px;-webkit-border-radius: 300px;-moz-border-radius: 300px;border-radius: 300px; padding: 18px 6px 18px 6px;
     border: 1px solid #E6E6E6;   -moz-box-shadow: 0px; -webkit-box-shadow: 0px;box-shadow:0px; opacity: 1 }
