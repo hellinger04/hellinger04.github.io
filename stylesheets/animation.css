@@ -56,6 +56,7 @@ strong { font-weight: bold; }
     .info {   margin-left: 60px;margin-right: 60px;}
     .main-image {margin: 0 auto; width: 100%;}
     .main-image-l {margin: 0 auto; width: 100%;}
-
-
+    .section h1 {font-size: 20px; font-weight: 500;text-align: left;text-transform: uppercase; }
+    .section h2 { font-size: 15px;margin-bottom: 8px;margin-top: 12px;line-height: 24px; padding: 0;
+        text-align: left;}
 }
