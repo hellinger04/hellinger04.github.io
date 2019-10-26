@@ -19,6 +19,7 @@ strong { font-weight: bold; }
 .section a {text-align: center; font-size:14px;}
 .section a:hover {opacity: .8}
 .white {color: #fff;}
+.black-text { color: #000000}
 .white2 {color: #000;}
 .green {background-color: #b6a77b}
 .apttblue {background-color: #83d2eb}
@@ -30,6 +31,8 @@ strong { font-weight: bold; }
 .gray { background-color: #868686}
 .lightgray { background-color: #bcbec0}
 .red {background-color:#c74937}
+.darkred {background-color: #933e2d
+}
 .darkgreen {background-color:#006373}
 .darkgreen2 {background-color:#005561}
 .yellow {background-color: #e8a324}
