@@ -54,8 +54,8 @@ strong { font-weight: bold; }
 
     .header-animation {padding-left: 20px; padding-right: 20px; }
     .header-animation h1 {font-size: 23px; line-height: 30px}
-    .header-animation h2 {    font-size: 18px;line-height: 23px;margin-top: 13px;}
-    .header-animation h3 {padding-top: 15px; padding-bottom: 20px; font-size: 15px}
+    .header-animation h2 {font-size: 30px;line-height: 23px;margin-top: 13px;}
+    .header-animation h3 {font-size: 20px; padding-top: 20px; padding-bottom: 20px;}
     .info {   margin-left: 60px;margin-right: 60px;}
     .main-image {margin: 0 auto; width: 100%;}
     .main-image-l {margin: 0 auto; width: 100%;}
