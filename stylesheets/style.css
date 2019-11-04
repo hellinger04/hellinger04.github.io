@@ -83,13 +83,13 @@ ul li ul li:hover {background-color: #E9E9E9}
 .first-dibs-project {padding-top: 60px;padding-bottom: 140px;}
 .first-dibs-project img {  display: block;margin: 0 auto;width: 80%;}
 
-.pack {background-color:#21B179}
-.pack h2 {max-width: 960px; padding-top: 0}
-.pack h3 {max-width: 980px; margin-bottom: 50px}
-.pack-project {padding-top: 60px;padding-bottom: 140px;}
-.pack-project img { display: block;margin: 0 auto;width: 80%; margin-top: 40px}
-.packlink {color: #000; opacity: .7; display: block; margin-bottom: 100px; font-size: 16px}
-.packlink:hover {opacity: 1}
+.coding {background-color:#21B179}
+.coding h2 {max-width: 960px; padding-top: 0}
+.coding h3 {max-width: 980px; margin-bottom: 50px}
+.coding-project {padding-top: 60px;padding-bottom: 140px;}
+.coding-project img { display: block;margin: 0 auto;width: 80%; margin-top: 40px}
+.codinglink {color: #000; opacity: .7; display: block; margin-bottom: 100px; font-size: 16px}
+.codinglink:hover {opacity: 1}
 
 .writing {background-color:#21242B}
 .writing h2 {max-width: 750px; padding-top: 0; padding-bottom: 40px; color: #fff }
@@ -155,12 +155,12 @@ ul li ul li:hover {background-color: #E9E9E9}
     opacity: 0.4;
     top: -1px;}
 
-.project-section-pack {  margin-left: 60px;
+.project-section-coding {  margin-left: 60px;
     margin-right: 60px;
     padding-bottom: 60px;
     padding-top: 60px}
 
-.project-section-pack p {color: #000; max-width: 910px}
+.project-section-coding p {color: #000; max-width: 910px}
 
 
 #next-project {  margin-left: 60px;margin-right: 60px;padding-bottom: 140px; text-align: center; font-family: 'Open Sans', sans-serif;}
@@ -244,7 +244,7 @@ ul li ul li:hover {background-color: #E9E9E9}
     body {font-size: 16px}
     .main-section {padding-left: 20px; padding-right: 20px; padding-top: 60px}
     .first-dibs-project img {width: 100%}
-    .pack-project img {width: 95%}
+    .coding-project img {width: 95%}
 
     .animations h3 {margin-bottom: 20px}
     .animations-project {padding-bottom: 60px;padding-top: 30px;margin-left: 0;
@@ -259,10 +259,7 @@ ul li ul li:hover {background-color: #E9E9E9}
 
     .large-project {width: 90%}
 
-    /*.designs-project {padding-top: 60px;padding-bottom: 90px; margin-left: 3%; margin-right: 3%;}*/
-    /*.pack-project {padding-top: 60px;padding-bottom: 90px;}*/
-    /*.writing-project {padding-top: 60px;padding-bottom: 90px; margin-left: 3%; margin-right: 3%;}*/
-    .pack h2 {max-width: 960px; padding-top: 50px}
+    .coding h2 {max-width: 960px; padding-top: 50px}
     .designs h2 {max-width: 750px; padding-top: 50px; padding-bottom: 20px; color: #fff }
     .writing h2 {max-width: 750px; padding-top: 60px; padding-bottom: 20px; color: #fff }
 }
