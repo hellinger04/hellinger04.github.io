@@ -41,6 +41,25 @@ ul li ul {padding: 0; position: absolute; left: 0; width: 200px; box-shadow: non
 ul li ul li {background: #FBFBFB; display: block; color: #333; top: 18px; padding: 20px 0 18px 25px; line-height:20px;}
 ul li ul li:hover {background-color: #E9E9E9}
 
+/* define background colors */
+.white {color: #fff;}
+.lightgray { background-color: #bcbec0}
+.gray { background-color: #868686}
+.black { background-color: #21242B}
+.black-text { color: #000000}
+.brown { background-color: #26211d}
+.red {background-color:#c74937}
+.darkred {background-color: #933e2d}
+.orange {background-color: #e26425}
+.yellow {background-color: #e8a324}
+.lightgreen {background-color:#21B179}
+.green {background-color: #b6a77b}
+.darkgreen {background-color:#005561}
+.apttblue {background-color: #83d2eb}
+.blue {background-color: #74a1d5}
+.darkblue {background-color: #3f55a5}
+.bloombergblue {background-color: #243768}
+
 /* define appearance of main sections on index */
 .main-section {padding-top: 120px;}
 .main-section a {color: #fff;  max-width: 200px;margin: 0 auto; font-weight: 500; text-decoration: none; text-align: center; text-transform: uppercase;
@@ -55,7 +74,8 @@ ul li ul li:hover {background-color: #E9E9E9}
 .center-main-section {margin-left: 3%; margin-right: 3%}
 
 .coding-project {padding-top: 60px;padding-bottom: 140px;}
-.coding-project img {display: block; width: 80%; margin: 0 auto 0;}
+.coding-project img {display: block; width: 80%; margin-left: auto; margin-right: auto;}
+.img-bottom {margin-top: 60px}
 
 .info-writing-header {margin: 40px 20px; text-align: left;}
 .info-writing {margin-bottom: 0px;margin-left: 20px;margin-right: 20px;text-align: left;}
@@ -89,25 +109,6 @@ ul li ul li:hover {background-color: #E9E9E9}
 .info {margin-bottom: 40px;margin-left: 60px;margin-right: auto;text-align: left;}
 .main-image {margin: 0 auto; width: auto;}
 .main-image-l {margin: 0 auto; width: 600px;}
-
-/* define background colors */
-.white {color: #fff;}
-.lightgray { background-color: #bcbec0}
-.gray { background-color: #868686}
-.black { background-color: #21242B}
-.black-text { color: #000000}
-.brown { background-color: #26211d}
-.red {background-color:#c74937}
-.darkred {background-color: #933e2d}
-.orange {background-color: #e26425}
-.yellow {background-color: #e8a324}
-.lightgreen {background-color:#21B179}
-.green {background-color: #b6a77b}
-.darkgreen {background-color:#005561}
-.apttblue {background-color: #83d2eb}
-.blue {background-color: #74a1d5}
-.darkblue {background-color: #3f55a5}
-.bloombergblue {background-color: #243768}
 
 .header-design {color:#000; text-align: center;font-weight: 300; background-color: #fff }
 .header-design h1 {font-size: 30px; color: #fff}
