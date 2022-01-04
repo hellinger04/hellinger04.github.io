@@ -44,10 +44,12 @@ ul li ul li:hover {background-color: #E9E9E9}
 /* define background colors */
 .white {color: #fff;}
 .lightgray { background-color: #bcbec0}
-.gray { background-color: #868686}
+.gray { background-color: #75a0ad}
 .black { background-color: #21242B}
 .black-text { color: #000000}
 .brown { background-color: #26211d}
+.olive {background-color: #987e57}
+.tan {background-color: #d0b599}
 .red {background-color:#c74937}
 .darkred {background-color: #933e2d}
 .orange {background-color: #e26425}
@@ -59,6 +61,7 @@ ul li ul li:hover {background-color: #E9E9E9}
 .blue {background-color: #74a1d5}
 .darkblue {background-color: #3f55a5}
 .bloombergblue {background-color: #243768}
+.purple {background-color: #243e68}
 
 /* define appearance of main sections on index */
 .main-section {padding-top: 120px;}
