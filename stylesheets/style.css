@@ -80,9 +80,9 @@ ul li ul li:hover {background-color: #E9E9E9}
 .coding-project img {display: block; width: 80%; margin-left: auto; margin-right: auto;}
 .img-bottom {margin-top: 60px}
 
-.info-writing-header {margin: 40px 20px; text-align: left;}
-.info-writing {margin-bottom: 0px;margin-left: 20px;margin-right: 20px;text-align: left;}
-.info-writing-black {margin-bottom: 0px;margin-left: 20px;margin-right: 20px;text-align: left;}
+.info-writing-header {margin: 40px 60px; text-align: left;}
+.info-writing {margin-bottom: 0px;margin-left: 60px;margin-right: 60px;text-align: left;}
+.info-writing-black {margin-bottom: 0px;margin-left: 60px;margin-right: 60px;text-align: left;}
 .info-writing a {color: #FFFFFF;  max-width: 200px; margin: 40px auto 0px; font-weight: 500; text-decoration: none;
     text-align: center; text-transform: uppercase; font-size: 14px; font-family: 'Open Sans', sans-serif;
     letter-spacing: 2px; -webkit-border-radius: 300px; -moz-border-radius: 300px; border-radius: 300px;
@@ -151,6 +151,10 @@ ul li ul li:hover {background-color: #E9E9E9}
 @media (max-width: 1400px) {
     .large-project {width: 90%}
 
+    .info-writing-header {margin: 40px 60px; text-align: left;}
+    .info-writing {margin-bottom: 0px;margin-left: 60px;margin-right: 60px;text-align: left;}
+    .info-writing-black {margin-bottom: 0px;margin-left: 60px;margin-right: 60px;text-align: left;}
+
     .project-section h3 {
         float: none;
         width: 80%;
@@ -182,6 +186,10 @@ ul li ul li:hover {background-color: #E9E9E9}
     .section h1 {font-size: 20px; font-weight: 500;text-align: left;text-transform: uppercase; }
     .section h2 { font-size: 15px;margin-bottom: 8px;margin-top: 12px;line-height: 24px; padding: 0;
         text-align: left;}
+
+    .info-writing-header {margin: 40px 30px; text-align: left;}
+    .info-writing {margin-bottom: 0px;margin-left: 25px;margin-right: 25px;text-align: left;}
+    .info-writing-black {margin-bottom: 0px;margin-left: 30px;margin-right: 30px;text-align: left;}
 }
 
 @media (max-width: 1000px) {
@@ -203,6 +211,10 @@ ul li ul li:hover {background-color: #E9E9E9}
     .coding h2 {max-width: 960px; padding-top: 50px}
     .designs h2 {max-width: 750px; padding-top: 50px; padding-bottom: 20px; color: #fff }
     .writing h2 {max-width: 750px; padding-top: 60px; padding-bottom: 20px; color: #fff }
+
+    .info-writing-header {margin: 40px 30px; text-align: left;}
+    .info-writing {margin-bottom: 0px;margin-left: 30px;margin-right: 30px;text-align: left;}
+    .info-writing-black {margin-bottom: 0px;margin-left: 30px;margin-right: 30px;text-align: left;}
 }
 
 @media only screen and (min-width:1000px) {
