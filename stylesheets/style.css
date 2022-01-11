@@ -28,6 +28,7 @@ a {-webkit-transition: ease-out .2s; -moz-transition: ease-out .2s; -o-transitio
 .mobile-nav {display: none}
 .mobile-nav-dropdown {display: none}
 .subheading {font-style: italic}
+.subheading-black {font-style: italic; color: #000000}
 
 ul {text-align: left; display: inline; margin: 0; list-style: none; font-family: 'Open Sans', sans-serif;}
 ul a {color: #333}
@@ -52,6 +53,8 @@ ul li ul li:hover {background-color: #E9E9E9}
 .olive {background-color: #987e57}
 .tan {background-color: #d0b599}
 .red {background-color:#c74937}
+.jlmered {background-color: #ff003c}
+.jlmepink {background-color: #ff839f}
 .darkred {background-color: #933e2d}
 .orange {background-color: #e26425}
 .darkorange {background-color: #d56300}
