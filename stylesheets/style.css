@@ -67,6 +67,8 @@ ul li ul li:hover {background-color: #E9E9E9}
 .darkblue {background-color: #3f55a5}
 .bloombergblue {background-color: #243768}
 .purple {background-color: #243e68}
+.brightred {background-color: #dc3b41}
+.iihsblack {background-color: #0f0b0b}
 
 /* define appearance of main sections on index */
 .main-section {padding-top: 120px;}
