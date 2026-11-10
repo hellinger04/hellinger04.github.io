@@ -232,3 +232,23 @@ ul li ul li:hover {background-color: #E9E9E9}
         display: none !important
     }
 }
+
+/* Bulleted list in the intro section (overrides the nav menu list styles) */
+.intro h3 ul {
+    display: block;
+    list-style: disc;
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-left: 1.5em;
+}
+
+.intro h3 ul li {
+    display: list-item;
+    padding: 0;
+    margin-bottom: 8px;
+    background: none;
+    cursor: auto;
+    font-size: inherit;
+    text-transform: none;
+}
