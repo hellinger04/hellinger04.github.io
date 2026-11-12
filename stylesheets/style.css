@@ -261,3 +261,8 @@ ul li ul li:hover {background-color: #E9E9E9}
 .intro h3 ul li:hover {
     color: inherit;
 }
+
+
+em, i {
+  font-style: italic;
+}
