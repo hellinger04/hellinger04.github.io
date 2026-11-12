@@ -119,7 +119,7 @@ ul li ul li:hover {background-color: #E9E9E9}
     text-align: left;}
 .section a {text-align: center; font-size:14px;}
 .section a:hover {opacity: .8}
-.info {margin-bottom: 40px;margin-left: 60px;margin-right: auto;text-align: left;}
+.info {margin-bottom: 40px;margin-left: 60px;margin-right: 60px;text-align: left;}
 .main-image {margin: 0 auto; width: auto;}
 .main-image-l {margin: 0 auto; width: 600px;}
 
