@@ -46,7 +46,7 @@ ul li ul li:hover {background-color: #E9E9E9}
 /* define background colors */
 .white {color: #fff;}
 .lightgray { background-color: #bcbec0}
-.gray { background-color: #75a0ad}
+.gray { background-color: #6d6e71}
 .black { background-color: #21242B}
 .black-text { color: #000000}
 .brown { background-color: #26211d}
@@ -71,6 +71,7 @@ ul li ul li:hover {background-color: #E9E9E9}
 .brightred {background-color: #dc3b41}
 .ajpm_magenta {background-color: #883782}
 .bmj_maroon {background-color: #a8241c}
+.metro_green {background-color: #196C24}
 
 /* define appearance of main sections on index */
 .main-section {padding-top: 120px;}
