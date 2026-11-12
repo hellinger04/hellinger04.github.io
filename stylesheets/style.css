@@ -64,14 +64,13 @@ ul li ul li:hover {background-color: #E9E9E9}
 .green {background-color: #b6a77b}
 .darkgreen {background-color:#005561}
 .apttblue {background-color: #83d2eb}
-.blue {background-color: #74a1d5}
+.blue {background-color: #3873b8}
 .darkblue {background-color: #3f55a5}
 .bloombergblue {background-color: #243768}
 .purple {background-color: #243e68}
 .brightred {background-color: #dc3b41}
 .ajpm_magenta {background-color: #883782}
 .bmj_maroon {background-color: #a8241c}
-.curious_blue {background-color: #25a3e2}
 
 /* define appearance of main sections on index */
 .main-section {padding-top: 120px;}
