@@ -88,7 +88,7 @@ ul li ul li:hover {background-color: #E9E9E9}
 .center-main-section {margin-left: 3%; margin-right: 3%}
 
 .coding-project {padding-top: 60px;padding-bottom: 140px;}
-.coding-project img {display: block; width: 80%; margin-left: auto; margin-right: auto;}
+.coding-project img, .coding-project video {display: block; width: 80%; margin-left: auto; margin-right: auto;}
 .img-bottom {margin-top: 60px}
 
 .info-writing-header {margin: 40px 60px; text-align: left;}
@@ -211,7 +211,7 @@ ul li ul li:hover {background-color: #E9E9E9}
     .mobile-nav {display: block}
     body {font-size: 16px}
     .main-section {padding-left: 20px; padding-right: 20px; padding-top: 60px}
-    .coding-project img {width: 95%}
+    .coding-project img, .coding-project video {width: 95%}
 
     .mobile-nav-dropdown {width: 100%; background-color: #fff;  border-top: 1px solid #e4e4e4;     position: absolute; }
     .mobile-nav-dropdown a {   float: left;width: 100%; margin-left: 20px; padding-bottom: 25px; text-decoration: none; color: #aaa}
@@ -266,3 +266,5 @@ ul li ul li:hover {background-color: #E9E9E9}
 em, i {
   font-style: italic;
 }
+
+video {display: block; max-width: 100%; height: auto; cursor: pointer;}

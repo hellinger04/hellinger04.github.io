@@ -36,6 +36,7 @@
 
 </head>
 
+
 <body>
 
 
@@ -106,7 +107,7 @@
         <div class="project-section">
             <video src="images/attentionmaintenancedemo.mp4"
                 poster="images/attentionmaintenancedemo-poster.jpg"
-                class="large-project" autoplay muted loop playsinline controls
+                class="large-project" autoplay muted loop playsinline
                 aria-label="Screen recording of the Attention Maintenance app in use">
             </video>
         </div>
@@ -120,20 +121,26 @@
     <div class="section darkblue">
 
         <div class="info">
-            <h1 class="white">02: Monadic</h1>
-            <h2 class="white">a web app to teach users about monads through interactive functional programing</h2>
+            <h1 class="white">02: Hazard Perception App</h1>
+            <h2 class="white">Web-based training that teaches drivers to anticipate hazards at 
+                intersections and in other risky scenarios, used by driving instructors. I supervise 
+                the app's development and adapt its training content.</h2>
         </div>
 
         <div class="project-section">
-            <img src="images/monadicdemonstration.gif" class="large-project" alt="Monadic Demonstration">
+            <video src="images/hazardperceptiondemo.mp4"
+                poster="images/hazardperceptiondemo-poster.jpg"
+                class="large-project" autoplay muted loop playsinline
+                aria-label="Screen recording of the Hazard Perception app in use">
+            </video>
         </div>
 
         <div class="info-writing">
-        <a href="https://jhumonadic.herokuapp.com/" class="cta" target="_blank">view app</a>
+        <a href="https://www.hazardperception.org" class="cta" target="_blank">view app</a>
         </div>
 
         <div class="info-writing">
-            <a href="https://github.com/hellinger04/monadic" class="cta" target="_blank">view repository</a>
+            <a href="mailto:hellinger@jhu.edu" class="cta" target="_blank">request a demo</a>
         </div>
 
     </div>
@@ -181,5 +188,20 @@
 
 
 <script type="text/javascript" src="javascripts/all.js"></script>
+<script>
+    document.querySelectorAll('video').forEach(function (v) {
+        v.setAttribute('tabindex', '0');
+        function toggle() {
+            if (v.paused) { v.play(); } else { v.pause(); }
+        }
+        v.addEventListener('click', toggle);
+        v.addEventListener('keydown', function (e) {
+            if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggle(); }
+        });
+        if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+            v.pause();
+        }
+    });
+</script>
 </body>
 </html>
